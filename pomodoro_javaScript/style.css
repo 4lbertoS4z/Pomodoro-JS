@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(189, 192, 16);
+    
+      background: url(imagen.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      
+      
+  }
+  
+  #app {
+    background-color: white;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
+    border: solid 1px #ccc;
+    
+  }
+  
+  #time {
+    text-align: center;
+    padding: 20px 0;
+  }
+  #time #value {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+  }
+  button,
+  input[type="submit"] {
+    border: none;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .done {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+  }
